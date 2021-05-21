@@ -14,4 +14,6 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  background: var(--dark-blue);
 }

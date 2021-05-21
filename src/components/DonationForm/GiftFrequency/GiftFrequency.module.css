@@ -1,0 +1,37 @@
+.Title {
+  color: var(--white);
+  padding-bottom: 0.8rem;
+}
+.Frequency {
+  padding: 0.2rem;
+  background: var(--dark-blue);
+  border-radius: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.RadioWrapper {
+  padding: 1.5rem 1rem;
+}
+
+.Radio {
+  display: none;
+}
+
+.Radio:checked + label {
+  background-color: var(--medium-blue);
+}
+
+.RadioWrapper label {
+  cursor: pointer;
+  color: var(--white);
+  height: 90%;
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  transition: all ease-in-out 0.1s;
+}
+
+.RadioWrapper label:hover {
+  background-color: var(--medium-blue);
+}

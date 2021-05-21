@@ -4,6 +4,13 @@
   outline: 0;
   box-sizing: border-box;
 }
+:root {
+  --dark-blue: #21213b;
+  --medium-blue: #2f2f4f;
+  --soft-blue: #708aff;
+  --blue-sky: #1865f2;
+  --white: #fff;
+}
 
 body {
   font-family: 'Open Sans', sans-serif;

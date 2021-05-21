@@ -13,6 +13,7 @@ const GiftFrequency = () => {
             id='monthly'
             type='radio'
             name='Frequency'
+            checked
           />
           <label htmlFor='monthly'>Monthly</label>
         </div>

@@ -1,0 +1,40 @@
+.SelectAmount {
+  margin-top: 2rem;
+}
+
+.Title {
+  color: var(--white);
+  padding-bottom: 0.8rem;
+}
+
+.Amounts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+
+.Radio {
+  display: none;
+}
+
+.Radio:checked + label {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
+
+.Radio + label {
+  cursor: pointer;
+  color: var(--white);
+  height: 90%;
+  border-radius: 5rem;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--dark-blue);
+  transition: all ease-in-out 0.1s;
+  font-weight: bold;
+}
+
+.Radio + label:hover {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}

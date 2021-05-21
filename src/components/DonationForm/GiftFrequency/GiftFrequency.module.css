@@ -9,10 +9,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  max-width: 80%;
 }
 
 .RadioWrapper {
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 1.5rem;
 }
 
 .Radio {
@@ -27,7 +29,7 @@
   cursor: pointer;
   color: var(--white);
   height: 90%;
-  padding: 1rem 3rem;
+  padding: 1rem 1.5rem;
   border-radius: 5rem;
   transition: all ease-in-out 0.1s;
 }

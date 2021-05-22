@@ -1,0 +1,30 @@
+.NameInputWrapper {
+  padding: 0;
+  margin: 3rem 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+}
+.NameInputWrapper label {
+  color: var(--white);
+  padding-bottom: 0.8rem;
+}
+
+.NameInput {
+  padding: 1rem;
+  border: 1.5px solid var(--dark-blue);
+  background: var(--medium-blue);
+  color: var(--white);
+  border-radius: 3px;
+}
+
+.NameInput::placeholder {
+  color: var(--white);
+  opacity: 0.6;
+}
+
+.NameInputWrapper a {
+  margin-top: 1rem;
+  color: var(--soft-blue);
+  text-decoration: none;
+}

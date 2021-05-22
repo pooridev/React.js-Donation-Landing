@@ -17,7 +17,15 @@ body {
   background: var(--dark-blue);
   height: 100vh;
 }
-
+fieldset {
+  border: 0;
+  padding-block-start: 0;
+  margin-inline-end: 0;
+  padding-block-end: 0;
+  margin-inline-start: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
 @media (min-width: 992px) {
   body {
     display: flex;

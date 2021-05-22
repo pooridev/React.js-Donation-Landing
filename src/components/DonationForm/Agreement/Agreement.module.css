@@ -6,5 +6,20 @@
 
 .CheckBox {
   margin-right: 0.5rem;
-  background: var(--medium-blue);
+  border: 2px solid var(--dark-blue);
+  background-color: var(--medium-blue);
+  height: 2rem;
+  width: 2rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border-radius: 4px;
+  outline: none;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.CheckBox:checked {
+  background-color: var(--dark-blue);
 }

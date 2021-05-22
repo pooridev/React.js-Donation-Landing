@@ -8,7 +8,13 @@ const SelectAmount = () => {
       </header>
       <div className={classes.Amounts}>
         <div className={classes.RadioWrapper}>
-          <input className={classes.Radio} type='radio' name='amount' id='10' />
+          <input
+            defaultChecked
+            className={classes.Radio}
+            type='radio'
+            name='amount'
+            id='10'
+          />
           <label htmlFor='10'>$10</label>
         </div>
         <div className={classes.RadioWrapper}>
@@ -24,7 +30,12 @@ const SelectAmount = () => {
           <label htmlFor='40'>$40</label>
         </div>
         <div className={classes.RadioWrapper}>
-          <input className={classes.Radio} type='radio' name='amount' id='other' />
+          <input
+            className={classes.Radio}
+            type='radio'
+            name='amount'
+            id='other'
+          />
           <label htmlFor='other'>other</label>
         </div>
       </div>

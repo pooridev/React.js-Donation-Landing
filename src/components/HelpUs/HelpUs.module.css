@@ -8,3 +8,18 @@
   line-height: 1.7rem;
   text-align: justify;
 }
+
+@media (min-width: 992px) {
+  .HelpUs {
+    max-width: 45%;
+  }
+  .HelpUsParagraph {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .HelpUs {
+    max-width: 50%;
+  }
+}

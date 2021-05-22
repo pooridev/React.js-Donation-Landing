@@ -41,3 +41,10 @@
   background-color: var(--white);
   color: var(--dark-blue);
 }
+
+@media (min-width: 499px) {
+  .Amounts {
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 0.5rem;
+  }
+}

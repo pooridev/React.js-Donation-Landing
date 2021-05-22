@@ -41,3 +41,33 @@
 .RadioWrapper label:hover {
   background-color: var(--medium-blue);
 }
+
+@media (min-width: 499px) {
+  .Frequency {
+    max-width: 80%;
+  }
+  .RadioWrapper {
+    padding: 1.5rem 1rem;
+  }
+  .RadioWrapper label {
+    padding: 1rem 1.9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .GiftFrequency {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .GiftFrequency {
+    margin-top: 1rem;
+  }
+  .Frequency {
+    max-width: 70%;
+  }
+  .RadioWrapper label {
+    padding: 1rem 2.1rem;
+  }
+}

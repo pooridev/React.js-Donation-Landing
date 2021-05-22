@@ -2,6 +2,7 @@
   display: flex;
   margin-top: 3rem;
   color: var(--white);
+  user-select: none;
 }
 
 .CheckBox {
@@ -9,7 +10,7 @@
   border: 2px solid var(--dark-blue);
   background-color: var(--medium-blue);
   height: 2rem;
-  width: 3rem;
+  width: 2rem;
   -webkit-appearance: none;
   -moz-appearance: none;
   -o-appearance: none;

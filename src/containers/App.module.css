@@ -1,7 +1,35 @@
 .App {
   padding: 2rem;
   background: var(--medium-blue);
-  width: 100vw;
   display: flex;
   flex-direction: column;
+}
+
+@media (min-width: 499px) {
+  .App {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) {
+  .App {
+    max-width: 35rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .App {
+    max-height: 45rem;
+    max-width: 61rem;
+    border-radius: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .App {
+    max-width: 70rem;
+  }
 }

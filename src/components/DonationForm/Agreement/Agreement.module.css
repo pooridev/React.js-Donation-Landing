@@ -1,0 +1,10 @@
+.Agreement {
+  display: flex;
+  margin-top: 2rem;
+  color: var(--white);
+}
+
+.CheckBox {
+  margin-right: 0.5rem;
+  background: var(--medium-blue);
+}

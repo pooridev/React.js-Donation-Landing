@@ -8,14 +8,17 @@
 }
 
 .Amounts {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  row-gap: 1.6rem;
   margin-top: 0.5rem;
 }
 
 .Radio {
   display: none;
+}
+.RadioWrapper {
+  margin-right: 0.5rem;
 }
 
 .Radio:checked + label {

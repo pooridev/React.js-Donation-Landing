@@ -1,0 +1,7 @@
+.DonateButton {
+  padding: 1rem 2rem;
+  background: var(--blue-sky);
+  color: var(--white);
+  border-radius: 3px;
+  border: 0;
+}

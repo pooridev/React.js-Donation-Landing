@@ -6,7 +6,7 @@ const GiftFrequency = () => {
       <header className={classes.Title}>
         <h4>Gift frequency</h4>
       </header>
-      <div className={classes.Frequency}>
+      <fieldset className={classes.Frequency}>
         <div className={classes.RadioWrapper}>
           <input
             className={classes.Radio}
@@ -26,7 +26,7 @@ const GiftFrequency = () => {
           />
           <label htmlFor='one-time'>One time</label>
         </div>
-      </div>
+      </fieldset>
     </div>
   );
 };

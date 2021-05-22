@@ -6,7 +6,7 @@ const SelectAmount = () => {
       <header className={classes.Title}>
         <h4>Selct amount (in US dollar)</h4>
       </header>
-      <div className={classes.Amounts}>
+      <fieldset className={classes.Amounts}>
         <div className={classes.RadioWrapper}>
           <input
             defaultChecked
@@ -38,7 +38,7 @@ const SelectAmount = () => {
           />
           <label htmlFor='other'>other</label>
         </div>
-      </div>
+      </fieldset>
     </div>
   );
 };

@@ -4,12 +4,6 @@
   border: 0;
   display: flex;
   flex-direction: column;
-  padding-block-start: 0;
-  margin-inline-end: 0;
-  padding-block-end: 0;
-  margin-inline-start: 0;
-  padding-inline-start: 0;
-  padding-inline-end: 0;
 }
 .NameInputWrapper label {
   color: var(--white);

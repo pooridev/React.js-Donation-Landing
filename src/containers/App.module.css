@@ -1,9 +1,7 @@
 .App {
   padding: 2rem;
   background: var(--medium-blue);
-  transition: all ease-in 0.5s;
   width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
